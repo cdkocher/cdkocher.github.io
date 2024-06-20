@@ -1,0 +1,98 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #BEBEBE;}
+
+ul.topnav li a.active {background-color: #990000;}
+
+ul.topnav li a.title {background-color: #990000; font-weight: bold; }
+
+ul.topnav li.right {float: right;}
+
+div.main{
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: justify;
+}
+
+div.headshot{
+    margin: 0;
+    padding: 5px 0px;
+    overflow: hidden;
+}
+
+div.headshotdescription{
+    float: left;
+    padding: 0px 10px;
+}
+
+div.headshotdescription p{
+    font-size: 20px;
+}
+
+div.headshotdescription a{
+    font-size: 20px;
+    color: black;
+}
+
+div.main p a.mainlink{
+    color: black;
+}
+
+img.headshot{
+    width: 200px;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li,
+  div.headshotdescription,
+  img.headshot {float: none;};
+  div.main{text-align: left;}
+}
+
+div.contact{
+    text-align: left;
+    padding: 40px 0px;
+}
+
+div.contactcontent{
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+}
+
+div.contactcontent h2{
+    color: #5F5F5F;
+}
+
+div.contactcontent p{
+    color: #828282;
+}
+
+div.contact a{
+    color: #828282;
+}
+
+div.main p{
+    line-height: 1.5;
+}

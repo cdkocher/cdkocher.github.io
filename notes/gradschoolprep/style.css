@@ -1,0 +1,13 @@
+div{max-width: 1000px; position: absolute; left: 50%; transform: translate(-50%,0); text-align: justify;}
+math{font-size: 20px}
+figcaption math{font-size: 16px}
+p{text-align: justify; font-size: 20px; line-height: 1.5}
+.texsite{text-align: justify; font-size: 13px; color: gray;}
+h1{font-size: 38px}
+h2{font-size: 30px}
+h3{font-size: 25px}
+figcaption{text-align: justify; padding-top: 5px;}
+figure{text-align: center;}
+table{text-align: center; border: 1px solid #ddd; font-size: 18px;  margin-left: auto; margin-right: auto;}
+td{text-align: center; border: 1px solid #ddd;}
+th{text-align: center; border: 1px solid #ddd;}
